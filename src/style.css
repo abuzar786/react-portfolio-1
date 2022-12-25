@@ -40,7 +40,7 @@ body {
 
 .container {
   width: var(--container-width-large);
-  margin: 0, auto;
+  margin: 0 auto;
 }
 h1,
 h2,
