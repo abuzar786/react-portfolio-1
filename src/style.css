@@ -19,7 +19,7 @@
 
   --transition: all 400ms ease;
   --container-width-large: 75%;
-  --container-width-medium: 86;
+  --container-width-medium: 86%;
   --container-width-small: 90%;
 }
 html {

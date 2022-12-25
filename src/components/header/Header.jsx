@@ -1,7 +1,18 @@
 import React from "react";
 import "./header.css";
-function Header() {
-  return <div>Header</div>;
-}
+import CTA from "./CTA";
+
+const Header = () => {
+  return (
+    <header>
+      <div className="container header__container">
+        <h5>Hello I'm</h5>
+        <h1>Muhammad Abuzar</h1>
+        <h5 className="text-light">Software Developer</h5>
+        <CTA />
+      </div>
+    </header>
+  );
+};
 
 export default Header;
